@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    
+    margin: 15px;
+    margin-bottom: 15px;
+}
+body{
+    background-color: rgb(29, 120, 91);
+    text-align: center;
+}
+.contanier{
+    height: 65vh;
+    display: flex;
+     flex-wrap: wrap;
+     text-align: center;
+     justify-content: center;
+
+}
+.game{
+     height: 60vmin;
+     width: 60vmin;
+     display: flex;
+     flex-wrap: wrap;
+     text-align: center;
+     justify-content: center;
+     gap: 1.5vmin;
+}
+.box{
+    background-color: rgb(189, 74, 36);
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    font-size: 10vmin;
+    border-radius: 9px;
+    cursor: pointer;
+    color: black;
+    box-shadow: 0 0 2px rgb(0, 0, 0), 0 0 2px rgb(0, 0, 0);
+}
+.box:hover{
+    height: 18.1vmin;
+    width: 18.1vmin;
+    background-color:rgb(181, 67, 29); ;
+}
+.reset{
+    padding: 8px;
+    margin-top: -50px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(31, 28, 28);
+    color: white;
+
+}
+.reset:hover{
+    padding:10px ;
+    font-size: 14px;
+    border-radius:8px ;
+}
+.new{
+        padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(31, 28, 28);
+    color: white;
+    margin-top:2px ;
+}
+.new:hover{
+     padding:9px ;
+    font-size: 12px;
+    border-radius:6px ;
+}
+.msg-co{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.msg{
+color: white;
+font-size: 30px;
+margin: 20px;
+
+}
+.hide{
+    display: none;
+}
